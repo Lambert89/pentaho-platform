@@ -112,6 +112,7 @@
 		<dependency org="commons-logging"     	name="commons-logging"     rev="1.1.1" conf="test->default" transitive="false"/>
 		<dependency org="log4j"                 name="log4j"              rev="1.2.16" conf="test->default" transitive="false"/>
 		<dependency org="junit"                	name="junit"         rev="4.11"     conf="test->default"/>
+		<dependency org="org.slf4j"            	name="slf4j-api" rev="1.6.4"   conf="test->default"/>
 		<dependency org="org.slf4j"            	name="slf4j-log4j12" rev="1.6.1"   conf="test->default"/>
 		<dependency org="hsqldb"               	name="hsqldb"        rev="1.8.0.7" conf="test->default"/>
 		<dependency org="org.jmockit"			name="jmockit"		rev="1.9" 		conf="test->default"/>	
